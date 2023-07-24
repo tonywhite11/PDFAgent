@@ -42,7 +42,7 @@ agent.insert_pdf(
 )
 ```
 
-Once it's inserted, we recommend giving it 1 or 2 minutes to properly index.
+Once it's inserted, we recommend giving it 30 to 60 seconds to properly index.
 
 If you have a local, PDF, we recommend uploading and inserting via 
 the https://app.twilix.io dashboard.
