@@ -57,7 +57,8 @@ agent.ask("How many participants are there in total?")
 
 ## Powerful templating for any desired output:
 
-You can then use out-of-the-box templating such as from the following:
+You can then use out-of-the-box templating where you by inserting a
+`{reference}` so that users can get a clean abstraction.
 
 ```python
 agent.template("""Please summarise the information below:
