@@ -4,6 +4,8 @@ A production-ready PDF agent for reading, analysing and conversing with your PDF
 
 Got questions/need support? Join our discord here: https://discord.gg/a3K9c8GRGt
 
+![Code Example](assets/examplecode.png)
+
 # Features
 
 ✅ Production-ready PDFReaderAgent - built with Rest API (see docs.twilix.io for more information)  
