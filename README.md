@@ -4,7 +4,7 @@ A production-ready PDF agent for reading, analysing and conversing with your PDF
 
 # Features
 
-✅ Production-ready PDFReaderAgent - built with Rest API (see docs.twilix.io for more information)
+✅ Production-ready PDFReaderAgent - built with Rest API (see docs.twilix.io for more information)  
 ✅ Built-in observability (via Twilix dashboard)  
 ✅ Built-in easily swappable read/write API keys (so no one can over-write your data)  
 ✅ Production-ready insertion and retrieval pipelines built in (via Twilix)  
