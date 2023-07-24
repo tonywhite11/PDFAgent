@@ -1,6 +1,6 @@
 # PDFAgent
 
-Most accurate, production-ready PDF agent for reading, analysing and conversing with your PDF.
+A production-ready PDF agent for reading, analysing and conversing with your PDF built for business-critical use cases on retrieval-augmented generation.
 
 # Features
 
