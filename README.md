@@ -26,6 +26,7 @@ You can get started quickly by grabbing your API key from https://app.twilix.io/
 ```python
 from pdfagent import PDFAgent
 agent = PDFAgent(
+    name="AgentExample",
     api_key="XXX"
 )
 ```
@@ -43,16 +44,29 @@ agent.insert_pdf(
 
 Once it's inserted, we recommend giving it 1 or 2 minutes to properly index.
 
+If you have a local, PDF, we recommend uploading and inserting via 
+the https://app.twilix.io dashboard.
+
 ## Now ask it questions!
 
 ```python
 agent.ask("What is this PDF about?")
 ```
 
+## Built-in observatory
+
+Once you set it up - you get a free monitoring and observatory!
+This includes: 
+- Monitoring input 
+- Monitoring output
+- Providing clean abstraction interfaces
+
+![Observatory example](assets/observatory.png)
+
 ## Ask for a co-pilot analysis!
 
 ```python
-agent.ask("How many participants are there in total?")
+agent.copilot("How many participants are there in total?")
 ```
 
 ## Powerful templating for any desired output:
@@ -61,8 +75,8 @@ You can then use out-of-the-box templating where you by inserting a
 `{reference}` so that users can get a clean abstraction.
 
 ```python
-agent.template("""Please summarise the information below:
+agent.template("""How many participants are there in total? Please respond in a JSON with the key `total_participants`.
 
 {reference}
-HTML:""")
+JSON:""")
 ```
