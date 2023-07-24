@@ -58,9 +58,10 @@ agent.ask("What is this PDF about?")
 
 Once you set it up - you get a free monitoring and observatory!
 This includes: 
-- Monitoring input 
-- Monitoring output
-- Providing clean abstraction interfaces
+- Monitoring input queries
+- Monitoring output queries
+- Latency
+- Retrieval results
 
 ![Observatory example](assets/observatory.png)
 
