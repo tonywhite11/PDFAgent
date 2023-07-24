@@ -23,7 +23,7 @@ pip install pdfagent
 You can get started quickly by grabbing your API key from https://app.twilix.io/.
 
 ```python
-from pdfagent import PDFAgent
+from PDFAgent import PDFAgent
 agent = PDFAgent(
     name="AgentExample",
     api_key="XXX"
@@ -79,3 +79,8 @@ agent.template("""How many participants are there in total? Please respond in a 
 {reference}
 JSON:""")
 ```
+
+# See More
+
+Interested in exploring further?
+Find out more from https://docs.twilix.io.

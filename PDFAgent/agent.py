@@ -26,7 +26,7 @@ class PDFAgent:
         """Ask your PDF a question
         """
         return self.collection.generative_qa(
-            user_input=question,
+            prompt=question,
             prompt_fields=None,
             conversation_id=conversation_id
         )
@@ -44,7 +44,7 @@ class PDFAgent:
         """The endpoint for advanced analysis
         """
         return self.collection.copilot(
-            user_input=prompt,
+            prompt=prompt,
             prompt_fields=["autoGen_content"],
             conversation_id=conversation_id,
             include_rerank=True,
