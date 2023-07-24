@@ -4,12 +4,12 @@ Most accurate, production-ready PDF agent for reading, conversing your PDF.
 
 # Features
 
-✅ Production-ready PDFReaderAgent 
-✅ Built-in observability (via Twilix dashboard) 
-✅ REST API is immediately available 
-✅ Built-in easily swappable read/write API keys (so no one can over-write your data) 
-✅ Production-ready insertion and retrieval pipelines built in (via Twilix) 
-✅ Multi-line citations, references built out of the box. 
+✅ Production-ready PDFReaderAgent  
+✅ Built-in observability (via Twilix dashboard)  
+✅ REST API is immediately available  
+✅ Built-in easily swappable read/write API keys (so no one can over-write your data)  
+✅ Production-ready insertion and retrieval pipelines built in (via Twilix)  
+✅ Multi-line citations, references built out of the box.  
 
 
 ## Installation
