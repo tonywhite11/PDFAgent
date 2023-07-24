@@ -8,8 +8,7 @@ Most accurate, production-ready PDF agent for reading, analysing and conversing 
 ✅ Built-in observability (via Twilix dashboard)  
 ✅ Built-in easily swappable read/write API keys (so no one can over-write your data)  
 ✅ Production-ready insertion and retrieval pipelines built in (via Twilix)  
-✅ Multi-line citations, references built out of the box.  
-
+✅ Multi-line citations, managed vector store, production-ready conversation memory handling.
 
 ## Installation
 

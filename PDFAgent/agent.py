@@ -31,13 +31,14 @@ class PDFAgent:
             conversation_id=conversation_id
         )
 
-    def template(self, prompt: str):
+    def template(self, prompt: str, conversation_id: str=None):
         """Use a template to analyze how your PDF
         """
         return self.collection.template(
-
+            prompt=prompt,
+            prompt_fields=["autoGen_content"],
+            conversation_id=conversation_id
         )
-        raise NotImplementedError
 
     def copilot(self, prompt: str, conversation_id: str=None):
         """The endpoint for advanced analysis
