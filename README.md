@@ -2,6 +2,8 @@
 
 A production-ready PDF agent for reading, analysing and conversing with your PDF built for business-critical use cases on retrieval-augmented generation.
 
+Got questions/need support? Join our discord here: https://discord.gg/a3K9c8GRGt
+
 # Features
 
 ✅ Production-ready PDFReaderAgent - built with Rest API (see docs.twilix.io for more information)  
@@ -46,13 +48,13 @@ Once it's inserted, we recommend giving it 30 to 60 seconds to properly index.
 If you have a local, PDF, we recommend uploading and inserting via 
 the https://app.twilix.io dashboard.
 
-## Now ask it questions!
+### Now ask questions!
 
 ```python
 agent.ask("What is this PDF about?")
 ```
 
-## Built-in observatory
+### Built-in observatory
 
 Once you set it up - you get a free monitoring and observatory!
 This includes: 
@@ -62,13 +64,13 @@ This includes:
 
 ![Observatory example](assets/observatory.png)
 
-## Ask for a co-pilot analysis!
+### Ask for a co-pilot analysis!
 
 ```python
 agent.copilot("How many participants are there in total?")
 ```
 
-## Powerful templating for any desired output:
+### Powerful templating for any desired output:
 
 You can then use out-of-the-box templating where you by inserting a
 `{reference}` so that users can get a clean abstraction.
